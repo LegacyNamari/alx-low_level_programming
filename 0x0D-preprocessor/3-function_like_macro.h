@@ -1,9 +1,6 @@
-#define abs(x) x = x < 0 ? -x : x 
-#include <stdio.h>
+#ifndef _FUNCTION_LIKE_MACRO_
+#define _FUNCTION_LIKE_MACRO_
 
+#define ABS(x) ((x) < (0) ? ((x) * (-1)) : (x))
 
-int main() 
-{ 
-    unsigned int x = -1; 
-    printf("%d, << x << ('\n')"); 
-} 
+#endif
