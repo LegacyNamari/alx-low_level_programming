@@ -1,0 +1,6 @@
+#include "main.h"
+
+int main (void)
+{
+    sum(int a , int b);
+    return(a + b)
